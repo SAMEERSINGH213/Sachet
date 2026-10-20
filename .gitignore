@@ -37,3 +37,8 @@ runs/
 # Evaluation & logs
 eval/results.json
 *.log
+
+
+.env
+*.env
+!.env.example
