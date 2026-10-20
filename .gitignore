@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Secrets and environment variables
+.env
+*.key
+*.pem
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and training artifacts
+data/raw/*.jsonl
+data/processed/*.jsonl
+data/splits/*.jsonl
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/splits/.gitkeep
+models/
+checkpoints/
+runs/
+*.pt
+*.bin
+*.safetensors
+
+# Evaluation & logs
+eval/results.json
+*.log
