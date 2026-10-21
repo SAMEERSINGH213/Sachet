@@ -21,8 +21,7 @@ ENV/
 Thumbs.db
 
 # Data and training artifacts
-data/raw/*.jsonl
-!data/raw/calls.jsonl
+#data/raw/*.jsonl
 data/processed/*.jsonl
 data/splits/*.jsonl
 !data/raw/.gitkeep
